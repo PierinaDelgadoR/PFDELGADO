@@ -1,0 +1,360 @@
+/* selector universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/***estilos globales **/
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: lightgray
+}
+
+
+/**INDEX**/
+
+
+/** header **/
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .logo {
+    width: 400px;
+}
+
+
+/* nav */
+.navbar-nav .nav-link {
+    color: green;
+}
+
+
+/**slogan **/
+#slogan {
+    color: #252422;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#slogan h1 {
+    font-size: 50px;
+}
+
+
+/** memes **/
+
+#cardmemes .col {
+    background-color: darkgreen;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#cardmemes .col img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    #cardmemes .col {
+        width: 23%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    #cardmemes .col {
+        width: 48%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 575px) {
+    #cardmemes .col {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+/** #cardmemes {
+    width: 95%;
+    margin: 0 auto;
+    }
+    
+    
+    #cardmemes h3 {
+    text-align: center;
+    }
+    
+    
+    #cardscontainer {
+    margin-bottom: 200px;
+    display: flex;
+    width: 95%;
+    }
+    
+    
+    #cardmemes {
+    background-color: darkolivegreen;
+    color: black;
+    width: 100%;
+    padding: 50px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    
+    .cardmemes img {
+    height: auto;
+    padding-top: 15px;
+    width: 100%;
+   
+    }**/
+
+
+/**** footer ****/
+
+
+footer {
+    background-color: #CCC5B9;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+
+footer h4 {
+    margin-bottom: 10px;
+
+
+}
+
+
+#contenedorfooter {
+    width: 95%;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerEnlaces ul {
+    list-style: none;
+}
+
+
+.footerEnlaces a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+#footerRedes {
+    width: 15%;
+    ;
+}
+
+
+.footerRedes ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+#footerRedes img {
+    width: 50px;
+
+}
+
+
+#footerRedes h4 {
+    text-align: center;
+}
+
+
+#reglas {
+    align-items: center;
+}
+
+
+#copyright {
+
+
+    width: 100%;
+    border-top: 2px solid #2b7927;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/**Sobre Nosotros**/
+#slogan1 {
+    color: darkgreen;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#slogan1 h1 {
+    font-size: 50px;
+}
+
+
+#nosotros1 p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#nosotros2 p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#nosotros3 p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#nosotros4 p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/** contacto **/
+
+
+
+
+.contacto {
+    width: 15%;
+    margin-left: 5%;
+}
+
+
+.contacto ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contacto img {
+    width: 50px;
+}
+
+
+.contacto h3 {
+    text-align: left;
+
+
+}
+
+
+
+
+.container h2 {
+    text-align: center;
+}
+
+
+.form-group {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.button {
+    text-align: center;
+    padding: 10px;
+}
+
+/** enviar aporte**/
+#slogan1 {
+    color: darkgreen;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#slogan1 h1 {
+    font-size: 50px;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/**login**/
+#registro {
+    margin-bottom: 100px;
+}
+
+#formulario1 {
+    color: #2b7927;
+    text-align: center;
+}
+
+#button {
+    margin-top: 20px;
+}
