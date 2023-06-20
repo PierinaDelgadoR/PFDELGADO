@@ -164,16 +164,14 @@ footer h4 {
 }
 
 
-.footerEnlaces ul {
+#enlaces ul {
     list-style: none;
 }
 
 
-.footerEnlaces a {
+#enlaces a {
     text-decoration: none;
     color: black;
-
-
 }
 
 
