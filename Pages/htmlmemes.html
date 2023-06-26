@@ -5,25 +5,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="../Images/Icons/cat_salad.png" type="image/x-icon" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
-    <title>Enviar Aporte</title>
-
-
+    <title>HTML Memes</title>
 </head>
+
 
 <body>
 
 
     <header>
         <a href="../index.html">
-            <img class="logo" src="../Images/Icons/Logo.jpeg" alt="" />
+            <img src="../Images/Icons/Logo.jpeg" alt="" />
         </a>
+
+
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,50 +43,58 @@
                             <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="../Pages/enviar-aporte.html">Enviar Aporte</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="../Pages/login.html">Registro/Login</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
 
 
     <main>
+
+
         <section id="slogan1">
             <h1>Data Humor For Analytical Minds</h1>
         </section>
 
+        <section class="container" id="cardmemes">
+<h2>HTML</h2>
+<p>
+    ¿Sabes qué es lo peor de HTML? ¡Es como un terapeuta obsesionado con las etiquetas! Siempre te dice: "Eso va dentro de esto, esto va dentro de aquello, y nunca te olvides de cerrar". ¡Es como si estuvieras siguiendo las reglas de etiqueta más estrictas en una cena formal! Y si te equivocas en una coma o en un signo de exclamación, ¡pum! Todo se desmorona como un castillo de naipes. Pero al final del día, HTML es como un buen amigo. Te ayuda a darle forma a tu sitio web y a veces te hace reír con sus caprichos. Es como el comediante geek del mundo de la programación.
+</p>
 
-        <div class="container">
-            <h2>Tutorial De Carga</h2>
-            <p>Dejanos tu aporte y comparte con la LoLComunidad</p>
+            <div class="row row-cols-1 row-cols-md 4 row-cols-lg-6">
+
+                <div class="col" id="cardmemes">
+                    <img src="../Images/HTML/117699501_3852527631440838_3194696988674282889_n.jpeg" class="rounded" alt="keanu meme html" />
+                </div>
 
 
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2Gg6Seob5Mg"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <div class="col" id="cardmemes">
+                    <img src="../Images/HTML/qa3qqds30s261.webp" class="rounded"
+                        alt="whos line is it anyway, html, programming" />
+                </div>
+
+
+                <div class="col" id="cardmemes">
+                    <img src="../Images/HTML/4sfdva.jpeg" class="rounded"
+                        alt="html, funny" />
+                </div>
+
+
+                <div class="col" id="cardmemes">
+                    <img src="../Images/HTML/Screen Shot 2023-06-26 at 10.35.23 AM.png" class="rounded" alt="leonardo dicaprio, movie, html" />
+                </div>
             </div>
 
-            <form>
-
-                </head>
-
-                <body>
-                    <div class="container">
-
-                        <form>
-                            <div class="mb-3">
-                                <label for="imagen" class="form-label">Seleccionar imagen:</label>
-                                <input type="file" class="form-control" id="imagen">
-                            </div>
-                            <button type="button" class="btn btn-success">Enviar</button>
-                        </form>
-
-                    </div>
-
+        </section>
+        
 
     </main>
 
@@ -107,6 +116,8 @@
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
                     <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./enviar-aporte.html">Enviar Aporte</a></li>
+                    <li><a href="./login.html">Registro/Login</a></li>
                 </ul>
 
 
@@ -126,15 +137,14 @@
             </div>
 
 
-            <div class="reglas">
-                <a href="./reglas.html">Reglas Del Sitio</a>
+            <div id="reglas">
+                <a href="./enviar-aporte.html">Cargar Imagen</a>
             </div>
         </div>
 
 
         <div id="copyright">
-            <p>Información legal: LOLcode ® es una marca registrada de Pierina Delgado. Al utilizar este sitio, estás
-                aceptando los términos de uso y la política de privacidad del sitio.</p>
+            <p>Información legal: LOLcode ® es una marca registrada de Pierina Delgado. Al utilizar este sitio, estás aceptando los términos de uso y la política de privacidad del sitio.</p>
             <p>Copyright © 2023</p>
         </div>
 
@@ -142,9 +152,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 
