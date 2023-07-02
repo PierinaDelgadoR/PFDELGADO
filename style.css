@@ -63,12 +63,14 @@ header .logo {
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
+    
 }
 
 #cardmemes .col img {
     width: 100%;
     height: auto;
 }
+
 
 @media (min-width: 992px) {
     #cardmemes .col {
@@ -165,13 +167,16 @@ footer h4 {
 #copyright {
 
 
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 10px;
     border-top: 2px solid #2b7927;
-    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    text-align: center;
+    
 }
 
 
@@ -255,8 +260,6 @@ footer h4 {
 }
 
 
-
-
 .container h2 {
     text-align: center;
 }
@@ -312,4 +315,44 @@ footer h4 {
 
 #button {
     margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+    header .logo {
+        width: 80%;
+    }
+
+    #enlaces {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #enlaces ul {
+padding-left: 0;
+    }
+
+    #footerRedes {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #footerRedes ul {
+        margin: 0 auto;
+        display: block;
+        width: 20%;
+        margin-left: 35%;
+    }
+
+    #reglas {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #contenedorfooter {
+        display: block;
+    }
+
+
+
 }
