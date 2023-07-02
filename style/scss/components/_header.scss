@@ -1,0 +1,17 @@
+header {
+    background-color: $color-white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 400px;
+
+        @include respond(phone) {
+            width: 80%;
+        }
+    }
+}

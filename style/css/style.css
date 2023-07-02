@@ -1,3 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Inter", sans-serif;
+  background-color: lightgray;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 400px;
+}
+@media (max-width: 576px) {
+  header .logo {
+    width: 80%;
+  }
+}
+
+.navbar-nav .nav-link {
+  color: green;
+}
+
+footer {
+  background-color: #CCC5B9;
+  width: 100%;
+  flex-direction: column;
+  padding: 30px 0;
+}
+footer h4 {
+  margin-bottom: 10px;
+}
+
+#slogan {
+  color: #252422;
+  margin-top: 170px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#slogan h1 {
+  font: 50px;
+}
+
+#cardmemes .col {
+  background-color: darkgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+#cardmemes .col img {
+  width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
