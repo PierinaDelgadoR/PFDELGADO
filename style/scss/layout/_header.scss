@@ -1,5 +1,5 @@
 header {
-    background-color: $color-white;
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,11 +7,14 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    .logo {
+    header .logo {
         width: 400px;
+    }
+}
+header .logo {
+    width: 400px;
 
-        @include respond(phone) {
-            width: 80%;
-        }
+    .navbar-nav .nav-link {
+        color: green;
     }
 }

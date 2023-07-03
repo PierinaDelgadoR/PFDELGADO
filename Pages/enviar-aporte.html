@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../backup.css">
+    <link rel="stylesheet" href="../style/css/style.css">
     <title>Enviar Aporte</title>
 
 
@@ -69,32 +69,24 @@
                     allowfullscreen></iframe>
             </div>
 
+
+            <div class="container">
+
             <form>
+                        <div class="mb-3">
+                            <label for="imagen" class="form-label">Seleccionar imagen:</label>
+                            <input type="file" class="form-control" id="imagen">
+                        </div>
+                        <button type="button" class="btn btn-success">Enviar</button>
+            </form>
 
-                </head>
-
-                <body>
-                    <div class="container">
-
-                        <form>
-                            <div class="mb-3">
-                                <label for="imagen" class="form-label">Seleccionar imagen:</label>
-                                <input type="file" class="form-control" id="imagen">
-                            </div>
-                            <button type="button" class="btn btn-success">Enviar</button>
-                        </form>
-
-                    </div>
+            </div>
 
 
     </main>
 
 
     <footer>
-
-
-        </div>
-
 
         <div id="contenedorfooter">
 
@@ -126,7 +118,7 @@
             </div>
 
 
-            <div class="reglas">
+            <div id="reglas">
                 <a href="./reglas.html">Reglas Del Sitio</a>
             </div>
         </div>
