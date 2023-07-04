@@ -5,7 +5,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Bootstrap-->
+    <meta name="description" content="Ríete sin parar con nuestros memes de data. La mejor colección de humor en un
+    solo lugar. ¡Diversión garantizada!">
+    <meta name="keywords" content="Data, Memes, HTML, CSS, analisis de datos, ciencia de datos, data analysis, data science">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="./Images/Icons/cat_salad.png" type="image/x-icon" />
@@ -13,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Inicio</title>
 </head>
 
@@ -21,7 +24,7 @@
 
     <header>
         <a href="./index.html">
-            <img class="logo" src="./Images/Icons/Logo.jpeg" alt="" />
+            <img class="logo" src="./Images/Icons/Logo.jpeg" alt="LoLCode" />
         </a>
 
 
@@ -57,7 +60,7 @@
     <main>
 
         <div class="container" id="slogan1">
-            <h1>Data Humor For Analytical Minds</h1>
+            <h1 class="mainTitle animate__animated animate__zoomInDown">Data Humor For Analytical Minds</h1>
         </div>
 
         <section class="container" id="cardmemes">
@@ -66,32 +69,41 @@
             <div class="row row-cols-1 row-cols-md 4 row-cols-lg-6">
 
                 <div class="col" id="cardmemes">
-                   <a href="./Pages/htmlmemes.html"><h4>MEMES HTML</h4>
-                    
-                    <img src="./Images/HTML/htmlfunny.jpeg" class="rounded" alt="HTML Memes"/></a> 
+                    <a href="./Pages/htmlmemes.html">
+                        <h4>MEMES HTML</h4>
+
+                        <img src="./Images/HTML/htmlfunny.jpeg" class="rounded" alt="HTML Memes" />
+                    </a>
                 </div>
 
 
                 <div class="col" id="cardmemes">
-                    <a href="./Pages/cssmemes.html"><h4>MEMES CSS</h4>
-                    
-                    <img src="./Images/CSS/main-qimg-2eb9c67205dee829ccc7461f020d6dbf-lq.jpeg" class="rounded"
-                        alt="CSS Memes" /></a>
+                    <a href="./Pages/cssmemes.html">
+                        <h4>MEMES CSS</h4>
+
+                        <img src="./Images/CSS/main-qimg-2eb9c67205dee829ccc7461f020d6dbf-lq.jpeg" class="rounded"
+                            alt="CSS Memes" />
+                    </a>
                 </div>
 
 
                 <div class="col" id="cardmemes">
-                    <a href="./Pages/dataanalisismemes.html"><h4>ANALISIS DATOS</h4>
-                   
-                    <img src="./Images/Data Analytics/DataAnalyticsfunny.jpeg" class="rounded"
-                        alt="Data Analytics Memes" /></a>
+                    <a href="./Pages/dataanalisismemes.html">
+                        <h4>ANALISIS DATOS</h4>
+
+                        <img src="./Images/Data Analytics/DataAnalyticsfunny.jpeg" class="rounded"
+                            alt="Data Analytics Memes" />
+                    </a>
                 </div>
 
 
                 <div class="col" id="cardmemes">
-                   <a href="./Pages/datasciensememes.html"> <h4>CIENCIA DE DATOS</h4>
-                    
-                    <img src="./Images/Data Science/datasciencefunny.webp" class="rounded" alt="Data Science Memes" /></a>
+                    <a href="./Pages/datasciensememes.html">
+                        <h4>CIENCIA DE DATOS</h4>
+
+                        <img src="./Images/Data Science/datasciencefunny.webp" class="rounded"
+                            alt="Data Science Memes" />
+                    </a>
                 </div>
             </div>
 
@@ -130,11 +142,12 @@
                 <a href="./Pages/reglas.html">Reglas Del Sitio</a>
             </div>
         </div>
-        
+
 
 
         <div id="copyright">
-            <p>Información legal: LOLcode ® es una marca registrada de Pierina Delgado. Al utilizar este sitio, estás aceptando los términos de uso y la política de privacidad del sitio.</p>
+            <p>Información legal: LOLcode ® es una marca registrada de Pierina Delgado. Al utilizar este sitio, estás
+                aceptando los términos de uso y la política de privacidad del sitio.</p>
             <p>Copyright © 2023</p>
         </div>
 
