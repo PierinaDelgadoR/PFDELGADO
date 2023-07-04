@@ -28,9 +28,10 @@ header .logo .navbar-nav .nav-link {
   color: green;
 }
 
+/**mixing**/
 /**slogan **/
-#slogan {
-  color: #252422;
+#slogan1 {
+  color: darkgreen;
   margin-top: 170px;
   margin-bottom: 50px;
   display: flex;
@@ -38,20 +39,22 @@ header .logo .navbar-nav .nav-link {
   align-items: center;
   justify-content: center;
 }
-
-#slogan h1 {
+#slogan1 h1 {
   font-size: 50px;
 }
 
 /** memes **/
 #cardmemes .col {
-  background-color: darkgreen;
+  background-color: rgb(101, 128, 92);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
 }
-
+#cardmemes .col a {
+  text-decoration: none;
+  color: black;
+}
 #cardmemes .col img {
   width: 100%;
   height: auto;
@@ -78,71 +81,24 @@ header .logo .navbar-nav .nav-link {
     margin-left: 0;
   }
 }
-/**Sobre Nosotros**/
-#slogan1 {
-  color: darkgreen;
-  margin-top: 170px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#slogan1 h1 {
-  font-size: 50px;
-}
-
-#nosotros1 p {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-#nosotros2 p {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-#nosotros3 p {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-#nosotros4 p {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
 /** contacto **/
 .contacto {
   width: 15%;
   margin-left: 5%;
 }
-
 .contacto ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
 }
-
 .contacto img {
   width: 50px;
 }
-
 .contacto h3 {
   text-align: left;
 }
-
-.container h2 {
+.contacto h2 {
   text-align: center;
 }
 
@@ -151,26 +107,7 @@ header .logo .navbar-nav .nav-link {
   padding: 10px;
 }
 
-.button {
-  text-align: center;
-  padding: 10px;
-}
-
 /** enviar aporte**/
-#slogan1 {
-  color: darkgreen;
-  margin-top: 170px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#slogan1 h1 {
-  font-size: 50px;
-}
-
 .container p {
   text-align: center;
   margin-top: 20px;
@@ -179,6 +116,15 @@ header .logo .navbar-nav .nav-link {
 .video {
   text-align: center;
   margin-top: 20px;
+}
+.video iframe {
+  width: 100%;
+  height: 400px;
+}
+@media (max-width: 767px) {
+  .video iframe {
+    height: 200px;
+  }
 }
 
 /**login**/
@@ -200,14 +146,12 @@ header .logo .navbar-nav .nav-link {
     width: 80%;
   }
 }
-/**footer**/
 footer {
   background-color: #CCC5B9;
   width: 100%;
   flex-direction: column;
   padding: 30px 0;
 }
-
 footer h4 {
   margin-bottom: 10px;
 }
@@ -217,6 +161,7 @@ footer h4 {
   padding-bottom: 70px;
   margin: 0 auto;
   display: flex !important;
+  display: block;
   justify-content: space-between;
 }
 
@@ -232,8 +177,10 @@ footer h4 {
 #footerRedes {
   width: 15%;
 }
-
-.footerRedes ul {
+#footerRedes img {
+  width: 50px;
+}
+#footerRedes ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
@@ -241,13 +188,15 @@ footer h4 {
   text-decoration: none;
 }
 
-#footerRedes img {
-  width: 50px;
-}
-
 #reglas {
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
   list-style-position: inside;
+}
+#reglas a {
+  text-decoration: none;
+  color: darkolivegreen;
 }
 
 #copyright {
@@ -267,7 +216,6 @@ footer h4 {
   margin: 0 auto;
   text-align: center;
 }
-
 #enlaces ul {
   padding-left: 0;
 }
@@ -275,26 +223,13 @@ footer h4 {
 #footerRedes {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
-
 #footerRedes ul {
   margin: 0 auto;
   display: block;
   width: 20%;
   margin-left: 35%;
-}
-
-#reglas {
-  width: 90%;
-  margin: 0 auto;
-}
-
-#contenedorfooter {
-  display: block;
-}
-
-#footerRedes {
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

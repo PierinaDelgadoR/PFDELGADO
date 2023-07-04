@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", "jarvisrun:scss" : "sass --watch ./style/scss/main.scss ./style/css/style.css"
+    "test": "echo \"Error: no test specified\" && exit 1", "jarvis:scss" : "sass --watch ./style/scss/main.scss ./style/css/style.css"
   },
   "author": "",
   "license": "ISC"
