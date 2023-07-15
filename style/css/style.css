@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 header header .logo {
   width: 400px;
@@ -83,7 +84,7 @@ header .logo .navbar-nav .nav-link {
 }
 /** contacto **/
 .contacto {
-  width: 15%;
+  width: 100%;
   margin-left: 5%;
 }
 .contacto ul {
@@ -102,9 +103,30 @@ header .logo .navbar-nav .nav-link {
   text-align: center;
 }
 
+#imgcontact {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+#sobre {
+  width: 70px;
+  margin-left: 2%;
+}
+#sobre img {
+  width: 100%;
+}
+
 .form-group {
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 10px;
+}
+
+.container h2 {
+  text-align: center;
 }
 
 /** enviar aporte**/
@@ -127,6 +149,10 @@ header .logo .navbar-nav .nav-link {
   }
 }
 
+#reglas {
+  text-align: center;
+}
+
 /**login**/
 #registro {
   margin-bottom: 100px;
@@ -135,10 +161,14 @@ header .logo .navbar-nav .nav-link {
 #formulario1 {
   color: #2b7927;
   text-align: center;
+  max-width: 800px;
 }
 
-#button {
-  margin-top: 20px;
+.btn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 540px) {
@@ -158,10 +188,10 @@ footer h4 {
 
 #contenedorfooter {
   width: 95%;
+  max-width: 1300px;
   padding-bottom: 70px;
   margin: 0 auto;
-  display: flex !important;
-  display: block;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -175,28 +205,17 @@ footer h4 {
 }
 
 #footerRedes {
-  width: 15%;
+  width: 100%;
 }
 #footerRedes img {
   width: 50px;
 }
 #footerRedes ul {
-  display: flex;
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-}
-
-#reglas {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  list-style-position: inside;
-}
-#reglas a {
-  text-decoration: none;
-  color: darkolivegreen;
+  padding-left: 0;
 }
 
 #copyright {
@@ -214,22 +233,61 @@ footer h4 {
 #enlaces {
   width: 90%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 #enlaces ul {
   padding-left: 0;
 }
 
 #footerRedes {
-  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 #footerRedes ul {
   margin: 0 auto;
   display: block;
-  width: 20%;
-  margin-left: 35%;
+}
+
+#frase {
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#frase p {
+  font-size: medium;
+}
+
+#texto4 {
+  max-width: 350px;
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  #contenedorfooter {
+    display: block;
+  }
+  #enlaces {
+    text-align: center;
+  }
+  #footerRedes {
+    margin-top: 50px;
+  }
+  #texto4 {
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    display: block;
+    float: none;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

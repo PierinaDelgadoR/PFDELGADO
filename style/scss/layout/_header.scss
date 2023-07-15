@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 
     header .logo {
         width: 400px;
@@ -16,5 +17,7 @@ header .logo {
 
     .navbar-nav .nav-link {
         color: green;
+        
     }
+
 }

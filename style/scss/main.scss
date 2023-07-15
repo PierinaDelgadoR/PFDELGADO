@@ -69,7 +69,7 @@
 
 /** contacto **/
 .contacto {
-    width: 15%;
+    width: 100%;
     margin-left: 5%;
 
     ul {
@@ -93,9 +93,31 @@
 
 }
 
+#imgcontact {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+#sobre {
+    width: 70px;
+    margin-left: 2%;
+    img {
+        width: 100%;
+    }
+}
+
 .form-group {
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 10px;
+}
+
+.container h2 {
+    text-align: center;
 }
 
 /** enviar aporte**/
@@ -121,6 +143,11 @@
     }
 }
 
+#reglas {
+    text-align: center;
+     
+}
+
 
 /**login**/
 #registro {
@@ -130,10 +157,14 @@
 #formulario1 {
     color: #2b7927;
     text-align: center;
+    max-width: 800px;
 }
 
-#button {
-    margin-top: 20px;
+.btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 540px) {
